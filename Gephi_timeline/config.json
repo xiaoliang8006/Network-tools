@@ -1,0 +1,6 @@
+{
+    "NodeAttr": ["QTY", "trade_times", "label"],
+    "NodeAttrType": ["int", "int", "string"],
+    "EdgeAttr": ["QTY", "trade_times"],
+    "EdgeAttrDefaultValue": ["0", "0"]
+}

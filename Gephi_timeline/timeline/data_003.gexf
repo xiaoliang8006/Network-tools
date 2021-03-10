@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:ns0="xsi" version="1.3" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <graph defaultedgetype="directed" mode="slice" timerepresentation="timestamp" timestamp="2">
+    <attributes class="node" mode="slice">
+      <attribute id="0" title="QTY" type="int"/>
+      <attribute id="1" title="trade_times" type="int"/>
+      <attribute id="2" title="label" type="string"/>
+    </attributes>
+    <attributes class="edge" mode="slice">
+      <attribute id="0" title="QTY" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="1" title="trade_times" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="10000" label="10000">
+        <attvalues>
+          <attvalue for="0" value="56"/>
+          <attvalue for="1" value="76"/>
+          <attvalue for="2" value="78"/>
+        </attvalues>
+      </node>
+      <node id="30000" label="30000">
+        <attvalues>
+          <attvalue for="0" value="18"/>
+          <attvalue for="1" value="36"/>
+          <attvalue for="2" value="95"/>
+        </attvalues>
+      </node>
+      <node id="40000" label="40000">
+        <attvalues>
+          <attvalue for="0" value="45"/>
+          <attvalue for="1" value="87"/>
+          <attvalue for="2" value="13"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="30000" target="10000">
+        <attvalues>
+          <attvalue for="0" value="23"/>
+          <attvalue for="1" value="143"/>
+        </attvalues>
+      </edge>
+      <edge source="40000" target="30000">
+        <attvalues>
+          <attvalue for="0" value="64"/>
+          <attvalue for="1" value="98"/>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
